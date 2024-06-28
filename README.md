@@ -7,6 +7,11 @@ With double the torque you will be able to print much faster without compromisin
 
 This mod has been heavily inspired by [LH Stinger](https://github.com/lhndo/LH-Stinger/tree/main)
 
+![Image of Y axis with two stepper motors](Images/cover.png)  
+
+
+[![CC BY-NC-SA 4.0][cc-by-nc-sa-shield]][cc-by-nc-sa]
+
 ## Features
 - more torque on Y axis -> better acceleration
 - easy tensioning
@@ -19,6 +24,10 @@ This mod has been heavily inspired by [LH Stinger](https://github.com/lhndo/LH-S
 - 20T GT2 Idlers are now default. I found significant rubbing when using F623 bearings. Belt path has been adjusted.
 
 ## FAQ
+
+> Are there build instructions ? 
+
+I am working on them, but for now consult the CAD.
 
 > Can I use single driver / stepper cable splitter ?
 
