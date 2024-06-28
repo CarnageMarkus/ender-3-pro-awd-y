@@ -49,12 +49,13 @@ Yes, v-wheels still work.
 | ---------------------------- | -------- | ------------------------------------------------------------------------------------- |
 | 20T GT2 Idler                | 1        |                                                                                       |
 | 20T GT2 Pulley               | 1        |                                                                                       |
-| 625 Bearing (without flange) | 1        | required for double shear, highly recommended                                     |
+| 625 Bearing (without flange) | 1        | required for double shear, highly recommended                                         |
 | M3x30 SHSC                   | 4        |                                                                                       |
 | M3x7x0.5 Washer              | 6        |                                                                                       |
 | M5x10 BHSC                   | 4 + 2    | 4 button head screws are required to fit into mounting slots, 2 if using support foot |
 | M5 T-Nut                     | 2        | required only if using support foot                                                   |
 | M5x10x0.5 Washer             | 1        | required for double shear, outer diameter doesn't matter                              |
+| GT2 2GT Belt                 |          | any of those mods will require longer than stock belt                                 |
 
 ## Tensioned Mount
 
@@ -63,18 +64,19 @@ has integrated tensioning mechanism to easily achieve ideal belt tension.
 ### BOM
 | Part                         | Quantity| Comment                                                                   |
 | ---------------------------- | ------- | ------------------------------------------------------------------------- |
-| M3x30 SHSC                   | 4       |                                                                           |
-| 20T GT2 Pulley               | 1       |                                                                           |
 | 20T GT2 Idler                | 1       |                                                                           |
+| 20T GT2 Pulley               | 1       |                                                                           |
 | 625 Bearing (without flange) | 1       | required for double shear, highly recommended                             |
-| M5x10x0.5 Washer             | 1       | required for double shear, outer diameter doesn't matter                  |
+| M3x30 SHSC                   | 4       |                                                                           |
+| M3x35 SHSC                   | 3       |                                                                           |
+| M3x10 SHSC                   | 2       | required for support foot                                                 |
+| M3x5L4 heatserts             | 3 + 2   | "voron spec" heatserts, 3 for frame rigidity, 2 required for support foot |
 | M3x7x0.5 Washer              | 9       |                                                                           |
+| M5x10x0.5 Washer             | 1       | required for double shear, outer diameter doesn't matter                  |
 | M5x10 BHSC                   | 4       |                                                                           |
 | M5 (Self Locking Nut)        | 2       | for tensioning mechanism and knob                                         |
 | M5x30 BHSC/SHSC              | 1       |                                                                           |
-| M3x35 SHSC                   | 3       |                                                                           |
-| M3x5L4 heatserts             | 3 + 2   | "voron spec" heatserts, 3 for frame rigidity, 2 required for support foot |
-| M3x10 SHSC                   | 2       | required for support foot                                                 |
+| GT2 2GT Belt                 |         | any of those mods will require longer than stock belt                     |
 
 
 ## Accessories / Mods
