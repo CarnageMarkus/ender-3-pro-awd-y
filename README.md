@@ -95,3 +95,7 @@ has integrated tensioning mechanism to easily achieve ideal belt tension.
 3. if motor skips, you need to redo the AWD Sync
 4. after a few days **redo** the AWD Sync , especially if using new belt since it will stretch a lot during first week, resulting in de-synced motors
 
+## Credits
+
+- inspiration [LH Stinger](https://github.com/lhndo/LH-Stinger/tree/main) 
+- tensioning knob from [KevinAkaSam BeltedZ Mod](https://github.com/kevinakasam/BeltDrivenEnder3)
