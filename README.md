@@ -47,7 +47,7 @@ Yes, v-wheels still work.
 
 | Part                         | Quantity | Comment                                                                               |
 | ---------------------------- | -------: | ------------------------------------------------------------------------------------- |
-| 20T GT2 Idler                |        1 |                                                                                       |
+| 20T GT2 Idler  (3mm bore)    |        1 |                                                                                       |
 | 20T GT2 Pulley (3mm bore)    |        1 | make sure bore is 3mm                                                                 |
 | 625 Bearing (without flange) |        1 | required for double shear, highly recommended                                         |
 | M3x30 SHSC                   |        4 |                                                                                       |
@@ -64,7 +64,7 @@ has integrated tensioning mechanism to easily achieve ideal belt tension.
 ### BOM
 | Part                         | Quantity | Comment                                                                   |
 | ---------------------------- | -------: | ------------------------------------------------------------------------- |
-| 20T GT2 Idler                |        1 |                                                                           |
+| 20T GT2 Idler  (3mm bore)    |        1 |                                                                           |
 | 20T GT2 Pulley (3mm bore)    |        1 | make sure bore is 3mm                                                     |
 | 625 Bearing (without flange) |        1 | required for double shear, highly recommended                             |
 | M3x30 SHSC                   |        4 |                                                                           |
