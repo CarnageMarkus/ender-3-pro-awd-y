@@ -1,7 +1,7 @@
 
 # Ender 3 Pro AWD-Y
 
-Hi, for the new users, this "AWD" mod adds second stepper motor onto your Y axis, doubling the torque available. As you probably noticed stock bed assembly is quite heavy which significantly limits accelerations. 
+Hi, this "AWD" mod adds second stepper motor onto your Y axis, doubling the torque available. As you probably noticed stock bed assembly is quite heavy which significantly limits accelerations. 
 
 With double the torque you will be able to print much faster without compromising on quality!
 
