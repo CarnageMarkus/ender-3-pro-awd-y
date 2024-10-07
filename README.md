@@ -40,60 +40,63 @@ This doesn't really make sense, single driver usually does not provide enough to
 
 Yes, v-wheels still work. 
 
-## Rigid Mount 
+> Can I use rigid motor mount to gain clearance for bigger stepper.
 
+Yes, rigid motor mount is designed so that it can be used with stock ender tensioner at the front.
+
+## Rigid Mount 
 
 ### BOM
 
-| Part                         | Quantity | Comment                                                                                                                     |
-| ---------------------------- | -------: | --------------------------------------------------------------------------------------------------------------------------- |
-| 20T GT2 Idler  (3mm bore)    |        1 |                                                                                                                             |
-| 20T GT2 Pulley (3mm bore)    |        1 | make sure bore is 3mm                                                                                                       |
-| 625 Bearing (without flange) |        1 | required for double shear, highly recommended                                                                               |
-| M3x30 SHSC                   |        4 |                                                                                                                             |
-| M3x7x0.5 Washer/Shim         |        6 |                                                                                                                             |
-| M5x10 BHSC                   |    4 + 2 | 4 button head screws are required to fit into mounting slots, 2 if using support foot                                       |
-| M5 T-Nut                     |        2 | required only if using support foot                                                                                         |
-| M5x10x0.5 Washer/Shim        |        1 | required for double shear, outer diameter doesn't matter, can be printed as well, just to prevent pulley rubbing on bearing |
-| GT2 2GT Belt                 |          | any of those mods will require longer than stock belt                                                                       |
+| Part                            | Quantity | Comment                                                                                                                     |
+| ------------------------------- | -------: | --------------------------------------------------------------------------------------------------------------------------- |
+| 20T GT2 Idler (**3mm bore**)    |        1 | toothed, make sure bore is 3mm                                                                                              |
+| 20T GT2 Pulley (**5mm bore**)   |        1 |                                                                                                                             |
+| 625 Bearing                     |        1 | required for double shear, highly recommended (don't confuse with f625)                                                     |
+| M3x30 SHSC                      |        4 |                                                                                                                             |
+| M3x7x0.5 Washer/Shim            |        6 | 3mm ID x 7 OD x 0.5 Thickness                                                                                               |
+| M5x10 BHSC                      |    4 + 2 | 4 button head screws are required to fit into mounting slots, 2 for support foot                                            |
+| M5 T-Nut                        |        2 | for support foot                                                                                                            |
+| M5x7x0.5 Washer/Shim            |        1 | outer diameter about 7 mm, can be printed as well, needed to prevent pulley rubbing on bearing outside housing which is stationary |
+| GT2 2GT Belt                    |          | any of those mods will require longer than stock belt                                                                       |
 
 ## Tensioned Mount
 
 has integrated tensioning mechanism to easily achieve ideal belt tension.
 
 ### BOM
-| Part                         | Quantity | Comment                                                                                                                     |
-| ---------------------------- | -------: | --------------------------------------------------------------------------------------------------------------------------- |
-| 20T GT2 Idler  (3mm bore)    |        1 |                                                                                                                             |
-| 20T GT2 Pulley (3mm bore)    |        1 | make sure bore is 3mm                                                                                                       |
-| 625 Bearing (without flange) |        1 | required for double shear, highly recommended                                                                               |
-| M3x30 SHSC                   |        4 |                                                                                                                             |
-| M3x35 SHSC                   |        3 |                                                                                                                             |
-| M3x10 SHSC                   |        2 | required for support foot                                                                                                   |
-| M3x5L4 heatserts             |    3 + 2 | "voron spec" heatserts, 3 for frame rigidity, 2 required for support foot                                                   |
-| M3x7x0.5 Washer/Shim         |        9 |                                                                                                                             |
-| M5x10x0.5 Washer/Shim        |        1 | required for double shear, outer diameter doesn't matter, can be printed as well, just to prevent pulley rubbing on bearing |
-| M5x10 BHSC                   |        4 |                                                                                                                             |
-| M5 (Self Locking Nut)        |        2 | for tensioning mechanism and knob                                                                                           |
-| M5x30 BHSC/SHSC              |        1 |                                                                                                                             |
-| GT2 2GT Belt                 |          | any of those mods will require longer than stock belt                                                                       |
+| Part                            | Quantity | Comment                                                                                                                            |
+| ------------------------------- | -------: | ---------------------------------------------------------------------------------------------------------------------------------- |
+| 20T GT2 Idler (**3mm bore**)    |        1 | toothed, make sure bore is 3mm                                                                                                     |
+| 20T GT2 Pulley (**5mm bore**)   |        1 |                                                                                                                                    |
+| 625 Bearing                     |        1 | required for double shear, highly recommended (don't confuse with f625)                                                            |
+| M3x30 SHSC                      |        4 |                                                                                                                                    |
+| M3x35 SHSC                      |        3 |                                                                                                                                    |
+| M3x10 SHSC                      |        2 | required for support foot                                                                                                          |
+| M3x5L4 heatserts                |    3 + 2 | "voron spec" heatserts, 3 for frame rigidity, 2 required for support foot                                                          |
+| M3x7x0.5 Washer/Shim            |        9 | 3mm ID x 7 OD x 0.5 Thickness                                                                                                      |
+| M5x7x0.5 Washer/Shim            |        1 | outer diameter about 7 mm, can be printed as well, needed to prevent pulley rubbing on bearing outside housing which is stationary |
+| M5x10 BHSC                      |        4 |                                                                                                                                    |
+| M5 (Self Locking Nut)           |        2 | for tensioning mechanism and knob                                                                                                  |
+| M5x30 BHSC/SHSC                 |        1 |                                                                                                                                    |
+| GT2 2GT Belt                    |          | any of those mods will require longer than stock belt                                                                              |
 
 
 ## Accessories / Mods
 
 - Bed carriage belt clamps: 
-  - https://www.printables.com/model/250178-gt2-belt-clip-for-kingroon-kp3s
-  - https://www.printables.com/model/202019-gt2-belt-fastener
+  - https://www.printables.com/model/202019-gt2-belt-fastener (prefer this one as it's stronger)
+  - https://www.printables.com/model/250178-gt2-belt-clip-for-kingroon-kp3s (if belt is too short, make sure to clamp with ziptie firmly)
 
 
 
 
 ## Important notes
 
-1. don't tighten pulley grub screws on rigid mount, until you are sure both steppers turn in right direction. It's easier to configure with one pulley slipping
+1. don't tighten pulley grub screws on rigid mount, until you are sure both steppers turn in right direction. It's safer to configure second driver with one pulley slipping.
 2. do AWD Sync. [macro](https://github.com/lhndo/LH-Stinger/blob/main/Config/Klipper_Config/mymacros.cfg#L773)
-3. if motor skips, you need to redo the AWD Sync
-4. after a few days **redo** the AWD Sync , especially if using new belt since it will stretch a lot during first week, resulting in de-synced motors
+3. if motor/belt skips, you need to redo the AWD Sync.
+4. after a few days **redo** the tension and AWD Sync , especially if using new belt since it will stretch a bit during first week, resulting in de-synced motors
 
 ## Credits
 
