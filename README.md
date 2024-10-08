@@ -16,12 +16,12 @@ This mod has been heavily inspired by [LH Stinger](https://github.com/lhndo/LH-S
 [cc-by-nc-sa-shield]: https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg
 
 ## Features
-- more torque on Y axis -> better acceleration
-- easy tensioning
-- maximize Y axis travel, as mounts are very low profile (+-280mm)
-- support feet to reduce vibrations and prevent [this issue](https://youtu.be/1tBwaWnOHKY?si=pGgoMI5P9Bu9fiOg&t=324).
-- toothed idlers
-- compatible with [LH Stinger - Ender 3 - CF Carriage](https://discord.com/channels/1167067314781429831/1209625504425054271) as they are very low profile
+- More torque on Y axis -> better acceleration
+- Easy tensioning
+- Maximize Y axis travel, as mounts are very low profile (+-280mm)
+- Support feet to reduce vibrations and prevent [this issue](https://youtu.be/1tBwaWnOHKY?si=pGgoMI5P9Bu9fiOg&t=324).
+- Toothed idlers
+- Compatible with [LH Stinger - Ender 3 - CF Carriage](https://discord.com/channels/1167067314781429831/1209625504425054271) as they are very low profile
 
 ### Changes over BETA
 - 20T GT2 Idlers are now default. I found significant rubbing when using F623 bearings. Belt path has been adjusted.
@@ -88,15 +88,23 @@ has integrated tensioning mechanism to easily achieve ideal belt tension.
   - https://www.printables.com/model/202019-gt2-belt-fastener (prefer this one as it's stronger)
   - https://www.printables.com/model/250178-gt2-belt-clip-for-kingroon-kp3s (if belt is too short, make sure to clamp with ziptie firmly)
 
+## Important Notes
 
+1. Don't tighten pulley grub screws on rigid mount, until you are sure both steppers turn in right direction. It's safer to configure second driver with one pulley slipping.
+2. Do AWD Sync. [macro](https://github.com/lhndo/LH-Stinger/blob/main/Config/Klipper_Config/mymacros.cfg#L773)
+3. If motor/belt skips, you need to redo the AWD Sync.
+4. After a few days **redo** the tension and AWD Sync, especially if using new belt since it will stretch a bit during first week, resulting in de-synced motors
 
+## Troubleshooting and Build Notes
 
-## Important notes
-
-1. don't tighten pulley grub screws on rigid mount, until you are sure both steppers turn in right direction. It's safer to configure second driver with one pulley slipping.
-2. do AWD Sync. [macro](https://github.com/lhndo/LH-Stinger/blob/main/Config/Klipper_Config/mymacros.cfg#L773)
-3. if motor/belt skips, you need to redo the AWD Sync.
-4. after a few days **redo** the tension and AWD Sync , especially if using new belt since it will stretch a bit during first week, resulting in de-synced motors
+- Fully tightening the M5x30mm tensioner screw can cause it to scrape the belt, do not overtighten it and check it before running the printer. Use the knob to tension, not the screw itself.
+- 5x7x0.5mm shims __or__ 625 *Deep Groove* bearings are required. If using deep groove bearings, larger shims such as 5x10x0.5mm are fine. The goal is for the shim to not rub on the static wall of the bearing.
+- Ensure there is a small gap (roughly 1.3mm) between the pulleys and the base of the motors. For the rigid mount, tighten the grub screws and install the motor, and then re-loosen the grub screws for syncing and testing. This ensures the pulley does not get forced up against the motor.
+- If you experience periodic resistance when moving the bed, make sure the pulleys are not rubbing on any printed parts.
+- Belt tension should be roughly 150hz. [Calculator from LH Stinger](https://docs.google.com/spreadsheets/d/1mgBJEO6Ef19EgX-LgE-lGDI9BayG98oX33mT0myVEUg/edit?gid=1590186229#gid=1590186229)
+- Some belt end clips are too loose for the tension/torque of this setup, make sure your belt does not slip through the clip and lose tension.
+- If using the printed support feet, make sure they sit evenly. If one is not bearing any weight, shim the bottom with something like electrical tape or reprint it.
+- For sensorless homing, use _one_ motor to set up the values. At least in Klipper, stepper_y1 will follow stepper_y by default.
 
 ## Credits
 
